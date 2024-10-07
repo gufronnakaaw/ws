@@ -11,12 +11,12 @@ export class TsService implements OnModuleInit, OnModuleDestroy {
 
   async onModuleInit() {
     this.ts3 = await TeamSpeak.connect({
-      host: '172.168.10.10',
+      host: '203.194.113.47',
       queryport: 10011,
       serverport: 9987,
       username: 'serveradmin',
-      password: 'GG00rvik',
-      nickname: 'BotNodeJS',
+      password: 'qWdnX8HH',
+      nickname: 'Nodejs App',
     });
   }
 
