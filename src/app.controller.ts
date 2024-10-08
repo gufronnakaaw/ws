@@ -18,4 +18,9 @@ export class AppController {
   async getClients() {
     return await this.ts.getClients();
   }
+
+  @Get('/priority')
+  async getPriority() {
+    return await this.ts.getPriority();
+  }
 }
